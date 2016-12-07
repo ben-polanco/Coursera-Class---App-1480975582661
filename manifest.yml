@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Coursera Class - App
+  host: Coursera-Class
+  disk_quota: 1024M
+  services:
+  - Coursera Class - App-cloudantNoSQLDB
+  - Coursera Class - App-iotf-service
